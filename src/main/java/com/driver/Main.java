@@ -7,15 +7,16 @@ public class Main {
         p.product(2, 2, 2);
         p.product(2.0, 2.0);
     }
+
 }
 class Product{
-    public int product(int x,int y){
+    public static int product(int x,int y){
         return x*y;
     }
-    public int product(int x,int y,int z){
+    public static int product(int x,int y,int z){
         return x*y*z;
     }
-    public double product(double x,double y){
+    public static double product(double x,double y){
         return x*y;
     }
 }
